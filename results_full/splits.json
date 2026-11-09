@@ -1,0 +1,83 @@
+[
+  {
+    "seed": 11,
+    "scenario": "random",
+    "train": 7456,
+    "test": 1864,
+    "train_classes": 8,
+    "test_classes": 8,
+    "test_unseen_drugs": 5
+  },
+  {
+    "seed": 11,
+    "scenario": "cold_s1",
+    "train": 5688,
+    "test": 3153,
+    "train_classes": 8,
+    "test_classes": 8,
+    "test_unseen_drugs": 110
+  },
+  {
+    "seed": 11,
+    "scenario": "cold_s2",
+    "train": 5688,
+    "test": 476,
+    "train_classes": 8,
+    "test_classes": 8,
+    "test_unseen_drugs": 104
+  },
+  {
+    "seed": 22,
+    "scenario": "random",
+    "train": 7456,
+    "test": 1864,
+    "train_classes": 8,
+    "test_classes": 8,
+    "test_unseen_drugs": 4
+  },
+  {
+    "seed": 22,
+    "scenario": "cold_s1",
+    "train": 6066,
+    "test": 2919,
+    "train_classes": 8,
+    "test_classes": 8,
+    "test_unseen_drugs": 110
+  },
+  {
+    "seed": 22,
+    "scenario": "cold_s2",
+    "train": 6066,
+    "test": 334,
+    "train_classes": 8,
+    "test_classes": 8,
+    "test_unseen_drugs": 98
+  },
+  {
+    "seed": 33,
+    "scenario": "random",
+    "train": 7456,
+    "test": 1864,
+    "train_classes": 8,
+    "test_classes": 8,
+    "test_unseen_drugs": 8
+  },
+  {
+    "seed": 33,
+    "scenario": "cold_s1",
+    "train": 5426,
+    "test": 3367,
+    "train_classes": 8,
+    "test_classes": 8,
+    "test_unseen_drugs": 108
+  },
+  {
+    "seed": 33,
+    "scenario": "cold_s2",
+    "train": 5426,
+    "test": 514,
+    "train_classes": 8,
+    "test_classes": 8,
+    "test_unseen_drugs": 100
+  }
+]

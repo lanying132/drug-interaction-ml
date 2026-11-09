@@ -1,0 +1,28 @@
+{
+  "source_rows": 37264,
+  "source_classes": 65,
+  "valid_top8_rows": 31970,
+  "sample_rows": 9320,
+  "sample_class_counts": {
+    "0": 1200,
+    "1": 1200,
+    "2": 1200,
+    "3": 1200,
+    "4": 1200,
+    "5": 1132,
+    "6": 1102,
+    "7": 1086
+  },
+  "unique_drugs": 551,
+  "mapped_target_drugs": 536,
+  "target_unique_proteins": 1519,
+  "sample_seed": 8122,
+  "fingerprint_radius": 2,
+  "fingerprint_bits": 512,
+  "max_per_class": 1200,
+  "target_missing_encoded_zero": true,
+  "input_sha256": {
+    "Deng_dataset.zip": "8812674ac543e05a2d5a2400f67537ca8645d2a1f7f5cfe2e1aa28ae91c27381",
+    "drug_target_9606.csv": "25c625502b8d8ff9acf0f4415b720f2a0b7c866975d829667b67d3e6fb9e3e77"
+  }
+}

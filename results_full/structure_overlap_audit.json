@@ -1,0 +1,21 @@
+{
+  "sample_drug_ids": 551,
+  "canonical_isomeric_smiles": 551,
+  "cold_splits": [
+    {
+      "seed": 11,
+      "heldout_drug_ids": 110,
+      "heldout_with_canonical_smiles_identical_to_training": 0
+    },
+    {
+      "seed": 22,
+      "heldout_drug_ids": 110,
+      "heldout_with_canonical_smiles_identical_to_training": 0
+    },
+    {
+      "seed": 33,
+      "heldout_drug_ids": 110,
+      "heldout_with_canonical_smiles_identical_to_training": 0
+    }
+  ]
+}

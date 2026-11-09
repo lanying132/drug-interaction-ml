@@ -1,0 +1,10 @@
+3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]
+numpy 2.5.3
+pandas 3.0.6
+scipy 1.18.1
+sklearn 1.9.1
+xgboost 3.4.1
+rdkit 2026.09.1
+matplotlib 3.11.2
+networkx 3.6.1
+reportlab 4.4.9 (bundled document runtime)

@@ -1,0 +1,9 @@
+﻿type,mechanism,action,full_n,sample_n
+0,The metabolism,decrease,9810,1200
+1,The risk or severity of adverse effects,increase,9496,1200
+2,The serum concentration,increase,5646,1200
+3,The serum concentration,decrease,2386,1200
+4,The therapeutic efficacy,decrease,1312,1200
+5,the central nervous system depressant ( CNS depressant ) activities,increase,1132,1132
+6,the QTc - prolonging activities,increase,1102,1102
+7,the hypotensive activities,increase,1086,1086

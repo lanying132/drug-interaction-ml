@@ -1,0 +1,17 @@
+# Raw input data and generated pair-level artifacts
+data/
+model/
+results/
+results_full/analysis_data.csv
+results_full/predictions.csv.gz
+results_full/combined_test_scores.csv.gz
+results_full/run.log
+results_full/rerun_scores.log
+results_full/statistical_comparison.log
+final_report_en.pdf
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+.env
+.venv/

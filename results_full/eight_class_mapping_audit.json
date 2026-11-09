@@ -1,0 +1,10 @@
+{
+  "original_database": "https://github.com/YifanDengWHU/DDIMDL/blob/master/event.db",
+  "database_sha256": "a25ba8ba3f8bddd07143ae6a6973bf343514bd14898849c0d97335b3f2d45c15",
+  "original_event_count": 37264,
+  "benchmark_count": 37264,
+  "matched_pairs": 37264,
+  "unique_mechanism_action_per_label": 65,
+  "label_count": 65,
+  "mapping_csv": "eight_class_mapping_verified.csv"
+}
