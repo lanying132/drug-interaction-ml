@@ -2,7 +2,7 @@
 
 **八类药物相互作用事件的机器学习分类** — a reproducible course project comparing linear SVM, random forest and XGBoost on eight event categories among drug pairs **already annotated as interacting**. It is an independent classical-ML study inspired by CSK-DDI, not a reproduction of its neural architecture.
 
-> **Scope:** This model assigns one of eight recorded interaction-event types conditional on an existing interaction annotation. It does not determine whether a drug pair interacts, whether combined use is safe, or whether an anticancer combination is effective. It is not a clinical decision tool.
+> **Scope:** This model assigns one of eight recorded interaction-event types conditional on an existing interaction annotation. It does not determine whether a drug pair interacts, whether combined use is safe, or whether combined use is clinically effective. It is not a clinical decision tool.
 
 ## Data sources and scope
 
@@ -75,7 +75,12 @@ The script verifies the expected database hash, matches all 37,264 unique unorde
 - `docs/literature_notes_zh.md`: source reading notes and scope.
 - `environment.txt`: package versions used for the reported run.
 
-After the experiment and statistical analysis, `python src/create_final_report.py` recreates the English course report. It requires the downloaded PubMed metadata, aggregate results, ReportLab, and Windows Times New Roman font files. The original course logo is optional and is not distributed with this repository.
+After the experiment and statistical analysis, generate the independent-study English report on Windows:
+
+```bash
+python src/create_final_report.py
+```
+
+The PDF is written to `output/`. The script uses the downloaded PubMed metadata and the aggregate results in `results_full/`, and requires Windows Times New Roman font files. The course logo is optional and is not distributed with the repository. Source data, pair-level predictions and trained model files are intentionally excluded; download or regenerate them as described above.
 
 Primary references: Deng et al., *Bioinformatics* (2020), [doi:10.1093/bioinformatics/btaa501](https://doi.org/10.1093/bioinformatics/btaa501); Wang et al., *Bioinformatics* (2026), [doi:10.1093/bioinformatics/btag800](https://doi.org/10.1093/bioinformatics/btag800); Shen et al., *Bioinformatics* (2025), [doi:10.1093/bioinformatics/btaf569](https://doi.org/10.1093/bioinformatics/btaf569).
-
