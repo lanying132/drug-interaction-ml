@@ -72,7 +72,6 @@ The script verifies the expected database hash, matches all 37,264 unique unorde
 
 - `src/`: download, feature construction, training, validation, statistics and report-generation scripts.
 - `results_full/`: aggregate metrics, class mapping audit and figures; pair-level data and fitted models are not committed.
-- `docs/literature_notes_zh.md`: source reading notes and scope.
 - `environment.txt`: package versions used for the reported run.
 
 After the experiment and statistical analysis, generate the independent-study English report on Windows:
